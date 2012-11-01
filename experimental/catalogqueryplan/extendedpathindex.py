@@ -149,7 +149,7 @@ def extendedpathindex_search(self, path, default_level=0, depth=-1, navtree=0,
     # Core application of the indexes
     #
 
-    pathset  = tmpres # Same as pathindex
+    pathset  = None
     depthset = None # For limiting depth
 
     if navtree and depth > 0:
